@@ -1,10 +1,10 @@
 FROM python:3.10
 
-ENV VERSION 3.4.19
+ENV VERSION 4.0.51
 
 ENV CUSTOMARGS="cyberdrop-dl"
 
-ENV APP_DIR="/app" PUID="99" PGID="100" UMASK="022"
+ENV APP_DIR="/app"
 
 RUN python3 -m pip install --no-cache-dir --upgrade pip && \
     python3 -m pip install --no-cache-dir cyberdrop-dl==${VERSION}
