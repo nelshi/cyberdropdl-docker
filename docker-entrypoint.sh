@@ -1,7 +1,5 @@
 #!/bin/sh
 
-chown -R "$PUID":"$PGID" "$APP_DIR"
-
-umask "$UMASK"
+find . -name "*.part" | xargs rm 
 
 $CUSTOMARGS
