@@ -1,6 +1,6 @@
 FROM python:3.10-slim-bullseye
 
-ENV VERSION 4.0.49
+ENV VERSION 4.0.53
 
 ENV CUSTOMARGS="cyberdrop-dl"
 
