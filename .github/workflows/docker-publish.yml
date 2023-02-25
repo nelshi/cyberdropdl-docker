@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: nelshi/cyberdropdl-docker
+          images: cyberdropdl-docker
         
       - name: Build and push Docker image
         id: build-and-push
