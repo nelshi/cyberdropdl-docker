@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.10-slim-bullseye
 
 ENV VERSION 4.0.49
 
