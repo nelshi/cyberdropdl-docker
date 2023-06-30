@@ -1,6 +1,6 @@
 FROM python:3.10
 
-ENV VERSION 4.2.56
+ENV VERSION 4.2.114
 
 ENV CUSTOMARGS="cyberdrop-dl"
 
